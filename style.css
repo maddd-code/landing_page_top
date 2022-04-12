@@ -14,6 +14,16 @@ body {
     padding: 5px;
 }
 
+a:link {
+    text-decoration: none;
+    color: #bddaff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #bddaff;
+}
+
 .logotext {
     display: flex;
     flex-shrink: 0;
@@ -34,6 +44,7 @@ ul {
     font-weight: 400;
     padding: 0px;
     margin: 0px;
+    cursor: pointer;
 }
 
 .container1 {
@@ -43,7 +54,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 80px 150px
+    padding: 80px 320px;
 }
 
 .cont1-text {
@@ -74,6 +85,7 @@ button {
     width: 100px;
     height: 30px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .container2 {
@@ -125,7 +137,7 @@ button {
 .container4 {
     background-color: #3882F6;
     color: #E5E7EB;
-    padding: 48px;
+    padding: 48px 144px;
     margin: 72px 144px;
     display: flex;
     justify-content: space-around;
